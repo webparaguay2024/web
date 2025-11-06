@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #e9d294
+}
+
+header, .main, footer{
+    width: 98%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+header{
+    position: relative;
+    background: #fff;
+    border: 6px solid #ffd700;
+    border-radius: 70px;
+}
+header div img{
+    margin-left: 60px;
+}
+header div h1{
+    color: #000;
+    font-size: 35px;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+header nav{
+    background: #3577f1;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: #92b3f0;
+}
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+-main .articles article{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.main .articles h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #960b0b;
+    margin-top: 20px;
+}
+.main .articles p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #363333;
+    line-height: 1.6;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+.main .articles h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #363333;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.main div img{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+aside{
+    width: 30%;
+    background: #ffffff;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    color: #575454;
+    margin-top: 26px;
+}
+aside p{
+    text-align: left;
+    align-items: center;
+    margin-left: 7px;
+    line-height: 1.6;
+}
+.main .peliculas img{
+    margin-top: 120px;
+    margin-left: 45px;
+    float: left;
+}
+
+footer{
+    border-width: 3px 3px 3px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #ffd700;
+    background: #ffffff;
+    color: #000000;
+    clear: both;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+}
